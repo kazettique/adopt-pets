@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import About from '../views/About'
+// import About from '../views/About'
 import Cats from '../views/Cats'
 import Dogs from '../views/Dogs'
 import Pet from '../views/Pet'
@@ -20,14 +20,14 @@ const routes = [
     component: Cats
   },
   {
-    path: '/cats',
-    name: 'Cats',
-    component: Cats
+    path: '/dogs',
+    name: 'dogs',
+    component: Dogs
   },
   {
-    path: '/cats',
-    name: 'Cats',
-    component: Cats
+    path: '/pet',
+    name: 'Pet',
+    component: Pet
   }
 ]
 
